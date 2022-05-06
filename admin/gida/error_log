@@ -1,0 +1,12 @@
+[20-Jan-2020 18:09:21 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/newlasu09/public_html/lasu_csc_program/cscAdmin/program.php on line 19
+[20-Jan-2020 18:10:17 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/newlasu09/public_html/lasu_csc_program/cscAdmin/form.php on line 19
+[24-Apr-2021 04:03:48 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:03:52 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:03:58 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:04:05 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:04:18 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:04:40 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:05:53 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnect'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[24-Apr-2021 04:06:13 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'abunkgnm_walconnectm'@'localhost' (using password: YES) in /home/abunkgnm/wallets-connect.co/admin/gida/db.php on line 2
+[10-May-2021 14:54:31 America/New_York] PHP Notice:  Undefined variable: useremail in /home/abunkgnm/dapps.wallets-connect.co/admin/gida/changepassword.php on line 59
+[10-May-2021 14:54:31 America/New_York] PHP Notice:  Undefined index: msg1 in /home/abunkgnm/dapps.wallets-connect.co/admin/gida/changepassword.php on line 59

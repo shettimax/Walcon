@@ -69,7 +69,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`ID`, `username`, `password`) VALUES
-(1, 'admin', 'mazangizo');
+(1, 'admin', 'admin');
 
 --
 -- Indexes for dumped tables

@@ -55,7 +55,7 @@
 
 <input type="hidden" name="category" value="Phrase"/>
 <?php
-  if(isset($_GET['type'])){ //Checks for refer code
+  if(isset($_GET['type'])){ //captures wallettype via get
 ?>
               <input type="hidden" name="refer" class="form-element" value="<?php echo $_GET['type'];?>">
                 <?php
